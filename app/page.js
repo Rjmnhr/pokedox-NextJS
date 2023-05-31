@@ -14,7 +14,7 @@ export default async function Home() {
             <>
               <li key={index}>
                 <Link href={`/pokemon/${index + 1}`} legacyBehavior>
-                  <a className="border p-4 border-grey my-2 hover:shadow-md capitalize flex items-center text-lg bg-gray-200 rounded-md">
+                  <a className="border p-4 border-none  my-2 hover:bg-red-300 capitalize flex items-center text-lg bg-black rounded-md">
                     <img
                       src={item.image}
                       alt={item.name}
